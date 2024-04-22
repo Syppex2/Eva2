@@ -53,7 +53,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: aquamarine;
     padding: 120px 20px;
     text-align: center; 
     min-height: 100vh;
@@ -65,6 +64,7 @@ footer {
 
 #home {
     background-image: url('../images/fondo.jpg');
+    color: aquamarine;
 }
 
 #about {
