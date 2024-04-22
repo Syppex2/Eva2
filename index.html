@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Landing Page</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Landing Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Quiénes Somos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#other">Otra</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Bienvenido a mi Landing Page</h2>
+        <p>Maximiliano Troncoso</p>
+        <p>Mi nombre es Maximiliano Troncoso y esta es mi Landing Page. Aquí puedes encontrar información sobre nuestros productos y servicios.</p>
+    </section>
+
+    <section id="about">
+        <h2>Quiénes Somos</h2>
+        <p>Somos un equipo de profesionales comprometidos con la excelencia. Nuestro objetivo es proporcionar soluciones innovadoras y de alta calidad para nuestros clientes. Estamos orgullosos de ser parte de la comunidad Inacap.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm" action="enviar.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="other">
+        <h2>Otra sección</h2>
+        <div class="container">
+            <table>
+                <caption>Tabla de ejemplo</caption>
+                <thead>
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Mi Landing Page</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

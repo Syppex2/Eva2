@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+form input, form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#home, #about, #contact, #other {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aquamarine;
+    padding: 120px 20px;
+    text-align: center; 
+    min-height: 100vh;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#home {
+    background-image: url('../images/fondo.jpg');
+}
+
+#about {
+    background-image: url('../images/fondo2.jpg');
+    color: yellow;
+}
+
+#contact {
+    background-image: url('../images/fondo3.jpg');
+    color: chartreuse;
+}
+
+#other {
+    background-image: url('../images/fondo4.jpg');
+    color: crimson;
+}
+
+#other ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#other ul li {
+    margin-bottom: 10px;
+}
+
+#other table {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
